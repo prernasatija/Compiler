@@ -1,0 +1,13 @@
+a,b
+#i1=11
+LIT 1,0
+STO a,0
+LIT 2,0
+STO b,0
+LOD a,0
+LOD b,0
+OPR 16,0
+JMC #i1,false
+LOD a,0
+OPR 21,0 
+OPR 0,0
